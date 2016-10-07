@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>LincolnHack Hackbot</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
@@ -68,14 +68,15 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
+				<section data-background-image="img/cathedral.jpg">
 					<h1>Welcome to LincolnHack!</h1>
+					<img class="plain" style="width: 150px" data-src="img/lincoln-hack-imp.png" />
 				</section>
 
 				<section>
 					<h2>Thanks!</h2>
 					<p>Shaun for inviting me &#x1F490;</p>
-					<p>You for listening to me &#x1F339;</p>
+					<p><em>You</em> for listening to me &#x1F339;</p>
 				</section>
 
 				<section>
@@ -130,12 +131,12 @@
 						<img data-src="img/anim/kill-all-humans.gif" />
 					</section>
 
-					<section>
+					<section data-background-color="#D9E3DA">
 						<p><span class="hackbot">Hackbot</span> cannot balance on bricks...</p>
 						<img data-src="img/anim/balance.gif" />
 					</section>
 
-					<section>
+					<section data-background-color="#BDE7FE">
 						<p><span class="hackbot">Hackbot</span> cannot tell jokes, such as...</p>
 						<img data-src="img/anim/joke.gif" />
 						<p><em>There's a band called one thousand and 23 megabytes...</em></p>
@@ -184,7 +185,7 @@
 					<h2>How can you use <span class="hackbot">Hackbot?</span></h2>
 					<p class="fragment fade-in">Sign up and log into the Slack team</p>
 					<p class="fragment fade-in">Join the hack channel</p>
-					<p class="fragment fade-in">Talk to Hackbot!</p>
+					<p class="fragment fade-in">Talk to <span class="hackbot">Hackbot</span>!</p>
 				</section>
 
 				<section data-background-image="img/hubot.svg" data-background-size="contain">
@@ -233,6 +234,11 @@
 					<p class="fragment fade-in">Get <span class="hackbot">Hackbot</span>'s attention</p>
 					<p class="fragment fade-in"><code>OK hackbot</code></p>
 					<p class="fragment fade-in"><em>Listening mode</em></p>
+				</section>
+
+				<section>
+					<h2>Commands</h2>
+					<p>Get <span class="hackbot">Hackbot</span>'s attention</p>
 					<p class="fragment fade-in"><code>@hackbot hello or something</code></p>
 				</section>
 
@@ -351,6 +357,7 @@
 			Reveal.initialize({
 				history: true,
 				transition: 'zoom',
+				slideNumber: true,
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
