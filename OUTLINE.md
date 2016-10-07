@@ -10,10 +10,83 @@
 
 - Why am I here?
   - Talk to you about ***Hackbot***
-  - What is Hackbot for
-  - How you can use it
-  - What is it made of
-  - How it can be changed
+  - What is Hackbot for?
+  - Where did Hackbot come from?
+    - Hack24 2016
+    - Nottingham City Council building (pictures)
+    - 130 hackers (pictures)
+    - Make the hack event smoother for attendees, and more fun for the organisers
+  - How you can use it?
+    - Talk to it!
+    - Join the hack channel
+    - Have fun with it!
+  - What is it made of?
+    - Hackbot is a Hubot
+      - Hubot was created by GitHub to help coordinate software and operations teams
+      - Written in Coffee-Script
+    - Hackbot uses an API
+      - Open and accessible JSON API
+    - Both the API and Hackbot are written in TypeScript
+      - It's awesome, check it out!
+  - Hackbot's not finished. How can you contribute?
+    - Hack the Hackbot!
+    - Pull Request on GitHub
+    - Host a Hackbot yourself with Heroku!
 
 - Introduce **Hackbot**
-  - OK @hackbot
+  - What can hackbot do for me?
+    - Manage your team!
+    - Commands
+      - Create your team
+        - Get hackbot's attention
+        - OK hackbot
+        - @codesleuth: Yes?
+        - create team The Best Team in the World! :melon:
+        - @codesleuth: Welcome to team  The Best Team in the World! :melon:!
+      - Invite your hackers
+        - OK hackbot
+        - @codesleuth: Yes?
+        - add @hawx to my team
+        - @codesleuth: Done!
+      - Review your team
+        - OK hackbot
+        - @codesleuth: Yes?
+        - tell me about my team
+        - @codesleuth: "Team Force One" has 2 members: codesleuth, hawx
+          They don't yet have a motto!
+      - Set a motto
+        - OK hackbot
+        - @codesleuth: Yes?
+        - our motto is We're the best, better than the rest!
+        - @codesleuth: So it is! As Team Force One say: We're the best, better than the rest!
+      - Find other teams
+        - OK hackbot
+        - @codesleuth: Yes?
+        - find teams like team
+        - @codesleuth: Found 1 teams; here's a few: Team Force One
+      - Find out about someone
+        - OK hackbot
+        - @codesleuth: Yes?
+        - tell me about @hawx
+        - @codesleuth: "hawx" is a member of team: Team Force One,
+          They say: We're the best, better than the rest!
+      - Leave your team
+        - OK hackbot
+        - @codesleuth: Yes?
+        - leave my team
+        - @codesleuth: OK, you've been removed from team "Team Force One"
+        - :-(
+  - What can't hackbot do for me
+    - Can't kick people from your team, so be careful who you add
+    - Can't delete a team - you need to all leave your team and it will delete automatically
+      - So try to get your team name right!
+    - Can't give you tips
+      - Hackbot barely knows what's going on. Don't even bother
+    - Won't give you relationship advice (although I've heard Hackbot is a real sweetheart)
+
+- Hacktoberfest
+  - By Digital Ocean
+  - Runs through all of October
+  - Open 4 Pull Requests
+  - Get a free t-shirt!
+  - https://hacktoberfest.digitalocean.com/

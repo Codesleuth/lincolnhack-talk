@@ -20,12 +20,305 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+
+		<style>
+			span.hackbot { color: #4A9586; }
+			span.codesleuth { color: lightblue; }
+			span.hubot {color: #FFBE28; }
+			span.github { color: #E4C6A7; }
+			span.technottingham { color: #d41c2b; }
+			span.emma { color: #A41CC6; }
+			span.andrew { color: #5EAE9E; }
+			span.you { color: #62A9FF; }
+			span.coffee { color: #B05F3C; }
+			span.jsonapi { color: #5EAE9E; }
+			span.heroku { color: #79589F; }
+			span.typescript { color: #337ab7; }
+
+			div.box {
+				background-color: rgba(0, 0, 0, 0.9);
+				color: #fff;
+				padding: 1em;
+			}
+
+			div.box.right {
+				position: relative;
+				left: 50%;
+				width: 50%;
+			}
+
+			div.box.left {
+				width: 40%;
+			}
+
+			div.box.top {
+				position: relative;
+				top: -4em;
+			}
+
+			.shadow {
+				text-shadow: 2px 2px #555;
+			}
+
+			ul.commands {
+				list-style-type: none;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h1>Welcome to LincolnHack!</h1>
+				</section>
+
+				<section>
+					<h2>Thanks!</h2>
+					<p>Shaun for inviting me</p>
+					<p>You for listening to me</p>
+				</section>
+
+				<section>
+					<section>
+						<h1>Introduction</h1>
+						<p class="fragment fade-in">Who the hell is this guy?</p>
+					</section>
+
+					<section>
+						<h1>I'm Dave</h1>
+						<p><em>Or <span class="codesleuth">Codesleuth</span>... if you wanna be hip</em></p>
+					</section>
+
+					<section>
+						<h2>I code</h2>
+						<p class="fragment fade-in">They say I'm a <span style="color:#FFD1DC">Software Engineer</span></p>
+						<p class="fragment fade-in">I work in <span style="color:#6CA870">Nottingham</span> at <span style="color:#62A9FF">Liberis</span></p>
+					</section>
+
+					<section>
+						<h2>I hack</h2>
+						<p class="fragment fade-in">Find my stuff on <span class="github">GitHub</span></p>
+						<p class="fragment fade-in">Find my rants at <a href="https://codesleuth.co.uk">codesleuth.co.uk</a></p>
+					</section>
+
+					<section>
+						<h2>Enough about me!</h2>
+						<p class="fragment fade-in">Let's get on with it!</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Why am I here?</h2>
+						<p class="fragment fade-in">To tell you about <span class="hackbot">Hackbot!</span></p>
+					</section>
+
+					<section>
+						<h2>What's <span class="hackbot">Hackbot</span></h2>
+						<p class="fragment fade-in">... I hear you ask?</p>
+					</section>
+
+					<section>
+						<p><span class="hackbot">Hackbot</span> is here to help you hack!</p>
+						<p class="fragment fade-in"><span class="hackbot">Hackbot</span> is here to simplify Lincoln Hack!</p>
+						<p class="fragment fade-in"><span class="hackbot">Hackbot</span> is <em><span style="color:red">not</span></em> here to join your team!</p>
+						<p class="fragment fade-in"><em>(although Hackbot kicks ass at hacking!)</em></p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Where did <span class="hackbot">Hackbot</span> come from?</h2>
+						<p class="fragment fade-in">
+							<img class="plain" data-src="img/hack24-logo.png" /><br />2016
+						</p>
+					</section>
+
+					<section data-background-image="img/Council+House+low+res.jpg">
+						<div class="box right">
+							<h2>Presented by <span class="technottingham">Tech Nottingham</span>!</h2>
+						</div>
+					</section>
+
+					<section data-background-image="img/Emma+and+Andrew+Council+low+res.jpg">
+						<div class="box left">
+							<h2>Organised by <span class="emma">Emma</span> and <span class="andrew">Andrew</span>!</h2>
+							<p><em>(lovely people)</em></p>
+						</div>
+					</section>
+
+					<section data-background-image="img/opening-ceremony.png">
+						<div class="box">
+							<h2>With 130+ attendees!</h2>
+						</div>
+					</section>
+
+					<section data-background-image="img/Unidays-Team.png">
+						<div class="box left">
+							<h2>All loving <span class="hackbot">Hackbot</span>!</h2>
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<h2>How can you use <span class="hackbot">Hackbot?</span></h2>
+					<p class="fragment fade-in">Sign up and log into the Slack team</p>
+					<p class="fragment fade-in">Join the hack channel</p>
+					<p class="fragment fade-in">Talk to Hackbot!</p>
+				</section>
+
+				<section data-background-image="img/hubot.svg" data-background-size="contain">
+					<h2>What's <span class="hackbot">Hackbot</span> made of?</span></h2>
+					<p class="fragment fade-in"><span class="hackbot">Hackbot</span> is a <span class="hubot">Hubot</span></p>
+					<p class="fragment fade-in">Created by <span class="github">GitHub</span></p>
+					<p class="fragment fade-in">Written in <span class="coffee">CoffeeScript</span></p>
+					<p class="fragment fade-in">Scripted by <span class="you">you</span>!</p>
+				</section>
+
+				<section>
+					<h2><span class="hackbot">Hackbot</span> uses an API</span></h2>
+					<p class="fragment fade-in">Underpins everything <span class="hackbot">Hackbot</span> does</p>
+					<p class="fragment fade-in">Open and accessible by <span class="you">anyone</span></p>
+					<p class="fragment fade-in">Built with the easy to use <span class="jsonapi">JSON API</span> spec</p>
+					<p class="fragment fade-in">Both compatible with free <span class="heroku">Heroku</span> hosting</p>
+				</section>
+
+				<section>
+					<h2>Written in <span class="typescript">TypeScript</span>!</span></h2>
+					<p class="fragment fade-in"><em>It's awesome</em></p>
+					<p class="fragment fade-in"><em>Enough said.</em></p>
+				</section>
+
+				<section>
+					<h2><span class="hackbot">Hackbot</span> is not finished...</h2>
+					<p class="fragment fade-in">Hack the bot!</p>
+					<p class="fragment fade-in">Open a pull request on <span class="github">GitHub</span></p>
+					<p class="fragment fade-in">Host a <span class="hackbot">Hackbot</span> yourself?</p>
+				</section>
+
+				<section>
+					<h1>Introducing <span class="hackbot">Hackbot</span></h1>
+				</section>
+
+				<section>
+					<h2>What does <span class="hackbot">Hackbot</span> do?</h2>
+					<p class="fragment fade-in">Manages your team</p>
+					<p class="fragment fade-in">Helps you discover other teams</p>
+					<p class="fragment fade-in">Brings delight and joy to your life!</p>
+				</section>
+
+				<section>
+					<h2>Commands</h2>
+					<p class="fragment fade-in">Get <span class="hackbot">Hackbot</span>'s attention</p>
+					<p class="fragment fade-in"><code>OK hackbot</code></p>
+					<p class="fragment fade-in"><code>@<span class="hackbot">hackbot</span> hello or something</code></p>
+					<p class="fragment fade-in"><em>Listening mode</em></p>
+				</section>
+
+				<section>
+					<h2>Create your team</h2>
+					<ul class="commands">
+						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> OK hackbot</code></li>
+						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
+						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> create team Team Force One</code></li>
+						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Welcome to team Team Force One!</code></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Invite your hackers</h2>
+					<ul class="commands">
+						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> OK hackbot</code></li>
+						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
+						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> add @hawx to my team</code></li>
+						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Done!</code></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Review your team</h2>
+					<ul class="commands">
+						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> OK hackbot</code></li>
+						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
+						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> tell me about my team</code></li>
+						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> "Team Force One" has 2 members: codesleuth, hawx<br />
+          They don't yet have a motto!</code></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Set a motto</h2>
+					<ul class="commands">
+						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> OK hackbot</code></li>
+						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
+						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> our motto is We're the best, better than the rest!</code></li>
+						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> So it is! As Team Force One say: We're the best, better than the rest!</code></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Find other teams</h2>
+					<ul class="commands">
+						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> OK hackbot</code></li>
+						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
+						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> find teams like force</code></li>
+						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Found 1 team: Team Force One</code></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Find out about a team</h2>
+					<ul class="commands">
+						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> OK hackbot</code></li>
+						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
+						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> tell me about team Team Force One</code></li>
+						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> "Team Force One" has 2 members: codesleuth, hawx<br/>
+							They say: We're the best, better than the rest!</code></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Find out about someone</h2>
+					<ul class="commands">
+						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> OK hackbot</code></li>
+						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
+						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> tell me about @hawx</code></li>
+						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> "hawx" is a member of team: Team Force One,<br />
+          		They say: We're the best, better than the rest!</code></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Leave your team</h2>
+					<ul class="commands">
+						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> OK hackbot</code></li>
+						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
+						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> leave my team</code></li>
+						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> OK, you've been removed from team "Team Force One"</code></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>What can't <span class="hackbot">Hackbot</span> do?</h2>
+					<p class="fragment fade-in">Can't kick people from your team<br />(be careful who you add)</p>
+					<p class="fragment fade-in">Can't delete a team<br />(empty teams are deleted automatically)</p>
+				</section>
+
+				<section>
+					<p>Can't give you tips<br />(<span class="hackbot">Hackbot</span> barely knows what's going on, don't even bother)</p>
+					<p class="fragment fade-in">Won't give you relationship advice<br />(although I've heard <span class="hackbot">Hackbot</span> is a real sweetheart)</p>
+				</section>
+
+				<section>
+					<h2>A few other commands...</h2>
+					<p class="fragment fade-in">See if you can find them!</p>
+				</section>
+
+				<section>
+					<h2>That's all you need</h2>
+					<p class="fragment fade-in">Get <span class="hackbot">Hackbot</span>ing!</p>
+				</section>
+
 			</div>
 		</div>
 
@@ -36,6 +329,7 @@
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				history: true,
+				transition: 'zoom',
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
