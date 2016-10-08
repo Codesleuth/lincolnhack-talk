@@ -68,6 +68,8 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
+				<audio id="yes" src="aud/yes.mp3"></audio>
+
 				<section data-background-image="img/cathedral.jpg">
 					<h1>Welcome to LincolnHack!</h1>
 					<img class="plain" style="width: 150px" data-src="img/lincoln-hack-imp.png" />
@@ -246,9 +248,12 @@
 					<h2>Create your team</h2>
 					<ul class="commands">
 						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> OK hackbot</code></li>
-						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
+						<li data-aud="yes" class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
 						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> create team Team Force One</code></li>
-						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Welcome to team Team Force One!</code></li>
+						<audio id="welcome_to_team_team_force_one" src="aud/welcome_to_team_team_force_one.mp3"></audio>
+						<li class="fragment fade-in" data-aud="welcome_to_team_team_force_one">
+							<code>@<span class="hackbot">hackbot</span>> Welcome to team Team Force One!</code>
+						</li>
 					</ul>
 				</section>
 
@@ -256,9 +261,10 @@
 					<h2>Invite your hackers</h2>
 					<ul class="commands">
 						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> OK hackbot</code></li>
-						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
+						<li data-aud="yes" class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
 						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> add @hawx to my team</code></li>
-						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Done!</code></li>
+						<audio id="done" src="aud/done.mp3"></audio>
+						<li data-aud="done" class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Done!</code></li>
 					</ul>
 				</section>
 
@@ -266,9 +272,10 @@
 					<h2>Review your team</h2>
 					<ul class="commands">
 						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> OK hackbot</code></li>
-						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
+						<li data-aud="yes" class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
 						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> tell me about my team</code></li>
-						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> "Team Force One" has 2 members: codesleuth, hawx<br />
+						<audio id="team_force_one_has_two_members" src="aud/team_force_one_has_two_members.mp3"></audio>
+						<li data-aud="team_force_one_has_two_members" class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> "Team Force One" has 2 members: codesleuth, hawx<br />
           They don't yet have a motto!</code></li>
 					</ul>
 				</section>
@@ -277,9 +284,10 @@
 					<h2>Set a motto</h2>
 					<ul class="commands">
 						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> OK hackbot</code></li>
-						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
+						<li data-aud="yes" class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
 						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> our motto is We're the best, better than the rest!</code></li>
-						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> So it is! As Team Force One say: We're the best, better than the rest!</code></li>
+						<audio id="so_it_is_as_team_force_one_say" src="aud/so_it_is_as_team_force_one_say.mp3"></audio>
+						<li data-aud="so_it_is_as_team_force_one_say" class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> So it is! As Team Force One say: We're the best, better than the rest!</code></li>
 					</ul>
 				</section>
 
@@ -287,9 +295,10 @@
 					<h2>Find other teams</h2>
 					<ul class="commands">
 						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> OK hackbot</code></li>
-						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
+						<li data-aud="yes" class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
 						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> find teams like force</code></li>
-						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Found 1 team: Team Force One</code></li>
+						<audio id="found_one_team_team_force_one" src="aud/found_one_team_team_force_one.mp3"></audio>
+						<li data-aud="found_one_team_team_force_one" class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Found 1 team: Team Force One</code></li>
 					</ul>
 				</section>
 
@@ -297,9 +306,10 @@
 					<h2>Find out about a team</h2>
 					<ul class="commands">
 						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> OK hackbot</code></li>
-						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
+						<li data-aud="yes" class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
 						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> tell me about team Team Force One</code></li>
-						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> "Team Force One" has 2 members: codesleuth, hawx<br/>
+						<audio id="team_force_one_has_two_members_they_say" src="aud/team_force_one_has_two_members_they_say.mp3"></audio>
+						<li data-aud="team_force_one_has_two_members_they_say" class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> "Team Force One" has 2 members: codesleuth, hawx<br/>
 							They say: We're the best, better than the rest!</code></li>
 					</ul>
 				</section>
@@ -308,9 +318,10 @@
 					<h2>Find out about someone</h2>
 					<ul class="commands">
 						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> OK hackbot</code></li>
-						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
+						<li data-aud="yes" class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
 						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> tell me about @hawx</code></li>
-						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> "hawx" is a member of team: Team Force One,<br />
+						<audio id="hawx_is_a_member_of_team_force_one" src="aud/hawx_is_a_member_of_team_force_one.mp3"></audio>
+						<li data-aud="hawx_is_a_member_of_team_force_one" class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> "hawx" is a member of team: Team Force One,<br />
           		They say: We're the best, better than the rest!</code></li>
 					</ul>
 				</section>
@@ -319,9 +330,10 @@
 					<h2>Leave your team</h2>
 					<ul class="commands">
 						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> OK hackbot</code></li>
-						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
+						<li data-aud="yes" class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> Yes?</code></li>
 						<li class="fragment fade-in"><code>@<span class="codesleuth">codesleuth</span>> leave my team</code></li>
-						<li class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> OK, you've been removed from team "Team Force One"</code></li>
+						<audio id="ok_youve_been_removed_from_team" src="aud/ok_youve_been_removed_from_team.mp3"></audio>
+						<li data-aud="ok_youve_been_removed_from_team" class="fragment fade-in"><code>@<span class="hackbot">hackbot</span>> OK, you've been removed from team "Team Force One"</code></li>
 					</ul>
 				</section>
 
@@ -367,6 +379,18 @@
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
+
+			Reveal.addEventListener('fragmentshown', function (event) {
+			  if (window!=window.top) return;
+			
+			  var fragment = event.fragment;
+			  var data_aud = fragment.getAttribute('data-aud');
+
+			  if (data_aud) {
+				  var aud = document.getElementById(data_aud);
+				  aud.play();
+			  }
+			} );
 		</script>
 	</body>
 </html>
